@@ -1,3 +1,10 @@
+  .scrollTop{
+    position: fixed;
+    right: 0;
+    bottom: 20px;
+    z-index: 5;
+  }
+
   .masthead {
     padding-top: calc(6rem + 74px);
     padding-bottom: 6rem;
@@ -20,6 +27,8 @@
   }
 
   header{
+      position: relative; 
+      z-index: 50;
       height: 100vh;
   }
   
